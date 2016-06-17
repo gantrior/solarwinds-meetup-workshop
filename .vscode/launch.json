@@ -1,0 +1,32 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+            "name": "Launch all e2e Tests",
+            "type": "node",
+            "program": "${workspaceRoot}/node_modules/protractor/built/cli.js",
+            "stopOnEntry": false,
+            "args": [ "./protractor.conf.js" ],
+            "cwd": "${workspaceRoot}",
+            "runtimeExecutable": null,
+            "externalConsole": false,
+            "runtimeArgs": [],
+            "env": { },
+            "sourceMaps": true,
+            "outDir": null
+        }, {
+            "name": "Launch selected e2e Tests",
+            "type": "node",
+            "program": "${workspaceRoot}/node_modules/protractor/built/cli.js",
+            "stopOnEntry": false,
+            "args": [ "./protractor.conf.js", "--cucumberOpts.tags=@runThis" ],
+            "cwd": "${workspaceRoot}",
+            "runtimeExecutable": null,
+            "externalConsole": false,
+            "runtimeArgs": [],
+            "env": { },
+            "sourceMaps": true,
+            "outDir": null
+        }
+	]
+}

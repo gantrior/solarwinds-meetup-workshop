@@ -1,0 +1,4 @@
+typings/
+node_modules/
+tests/e2e/**/*.js
+tests/e2e/**/*.map

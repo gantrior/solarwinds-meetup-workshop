@@ -1,0 +1,28 @@
+{
+  "name": "meetupdemo",
+  "version": "1.0.0",
+  "description": "For SolarWinds meetup demonstration purposes",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "chai-as-promised": "^5.2.0",
+    "cucumber": "^0.9.5",
+    "httpster": "^1.0.1",
+    "protractor": "^3.2.2",
+    "protractor-cucumber-framework": "^0.4.0",
+    "gulp": "^3.9.0",
+    "gulp-load-plugins": "^1.1.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-tsc": "^1.1.5",
+    "gulp-tslint": "^4.3.2",
+    "typescript": "^1.8.7",
+    "yargs": "^3.30.0",
+    "tslint": "^3.4.0",
+    "tsd": "^0.6.5"
+  },
+  "scripts": {
+    "update-webdriver": "node node_modules/protractor/bin/webdriver-manager update",
+    "init": "npm install && cd tests/e2e && tsd install && cd ../.. && npm run update-webdriver && gulp tscompile",
+    "webdriver": "node node_modules/protractor/bin/webdriver-manager start",
+    "e2e": "node node_modules/protractor/bin/protractor"
+  }
+}
