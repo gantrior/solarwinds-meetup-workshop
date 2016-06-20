@@ -21,7 +21,7 @@
   },
   "scripts": {
     "update-webdriver": "node node_modules/protractor/bin/webdriver-manager update",
-    "init": "npm install && cd tests/e2e && tsd install && cd ../.. && npm run update-webdriver && gulp tscompile",
+    "init": "npm install && npm run update-webdriver && gulp tscompile",
     "webdriver": "node node_modules/protractor/bin/webdriver-manager start",
     "e2e": "node node_modules/protractor/bin/protractor"
   }
