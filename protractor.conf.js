@@ -2,7 +2,7 @@ var waiting = function (rootSelector, callback) {
     var el = document.querySelector(rootSelector);
     var $timeout = angular.element(el).injector().get('$timeout');
     // make sure that timeout is queued in angular pipeline which should make sure that digest cycle really ended
-    $timeout(callback, 0);
+    $timeout(callback, 1000);
 };
 
 exports.config = {
