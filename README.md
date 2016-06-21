@@ -1,4 +1,4 @@
-# Prerequisite
+# Prerequisities
 
 ## Clone the code
 
