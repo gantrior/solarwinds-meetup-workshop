@@ -5,7 +5,7 @@
     git clone https://github.com/gantrior/solarwinds-meetup-workshop.git
     cd solarwinds-meetup-workshop
 
-## Install NodeJS at least version 5.0+
+## Install NodeJS at least version 5.7+
 On Windows for example using [chocolatey](http://www.chocolatey.org/). Run those commands with elevated permissions: 
 
 Install chocolatey
