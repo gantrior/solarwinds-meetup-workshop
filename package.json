@@ -23,9 +23,8 @@
     "sleep-promise": "^1.0.0"
   },
   "scripts": {
-    "update-webdriver": "node node_modules/protractor/bin/webdriver-manager update",
-    "init": "npm install && npm run update-webdriver && gulp tscompile",
-    "webdriver": "node node_modules/protractor/bin/webdriver-manager start",
-    "e2e": "node node_modules/protractor/bin/protractor"
+    "init": "npm install && node node_modules/protractor/bin/webdriver-manager update && gulp tscompile",
+    "test": "node node_modules/protractor/bin/protractor",
+    "watch": "gulp watch"
   }
 }

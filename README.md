@@ -20,6 +20,10 @@ Install nodejs
 
     choco install visualstudiocode
 
+## Install Chrome browser
+
+    choco install googlechrome
+
 # Initialize:
 
     npm run init
@@ -30,7 +34,7 @@ Install nodejs
 * If you want to run just one specific test:
   * mark the scenario with "@runThis" tag in "*.feature" file
   * Open in Visual Studio Code -> Debug -> Select "Launch selected e2e Tests" -> Run
-* Open a new cmdline and run [Protractor](http://www.protractortest.org#/): ./node_modules/.bin/protractor protractor.conf.js
+* To run all tests from cmdline: `npm test`
 
 # Development
 
