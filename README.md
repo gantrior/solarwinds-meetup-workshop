@@ -1,4 +1,4 @@
-# Prerequisite
+# Prerequisities
 
 ## Clone the code
 
@@ -45,6 +45,21 @@ To do it open cmdline and run:
     npm run watch
     
 from now every change you do to *.ts* files will be compiled automatically
+
+# Backend
+Backend was created for workshop purposes where full source codes are here: https://github.com/gantrior/solarwinds-meetup-workshop-backend
+
+There are 8 instances of this backend deployed in public cloud where each has its own DB: 
+* https://solarwinds-meetup-workshop1.herokuapp.com
+* https://solarwinds-meetup-workshop2.herokuapp.com
+* https://solarwinds-meetup-workshop3.herokuapp.com
+* https://solarwinds-meetup-workshop4.herokuapp.com
+* https://solarwinds-meetup-workshop5.herokuapp.com
+* https://solarwinds-meetup-workshop6.herokuapp.com
+* https://solarwinds-meetup-workshop7.herokuapp.com
+* https://solarwinds-meetup-workshop8.herokuapp.com
+
+Each workshop pair will receive one for testing purposes.
 
 # Code structure
 
