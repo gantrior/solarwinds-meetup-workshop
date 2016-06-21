@@ -20,7 +20,6 @@ Scenario: Short task display required message
 
 Scenario: Empty list display required message
     Given the task list is empty
-        And I am on 'https://solarwinds-meetup-workshopX.herokuapp1.com'
     Then I should see message 'Nothing to do. Go play outside :D'
 
 Scenario: Task can be deleted
@@ -31,7 +30,6 @@ Scenario: Task can be deleted
     | task3 |
     | task4 |
     | task5 |
-        And I am on 'https://solarwinds-meetup-workshopX.herokuapp1.com'
     When I delete task 'task3'
     Then I should see following tasks in the list of tasks
     | name  |
