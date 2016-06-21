@@ -46,6 +46,19 @@ To do it open cmdline and run:
     
 from now every change you do to *.ts* files will be compiled automatically
 
+# Backend
+There are following backends available for workshop purposes: 
+* https://solarwinds-meetup-workshop1.herokuapp.com
+* https://solarwinds-meetup-workshop2.herokuapp.com
+* https://solarwinds-meetup-workshop3.herokuapp.com
+* https://solarwinds-meetup-workshop4.herokuapp.com
+* https://solarwinds-meetup-workshop5.herokuapp.com
+* https://solarwinds-meetup-workshop6.herokuapp.com
+* https://solarwinds-meetup-workshop7.herokuapp.com
+* https://solarwinds-meetup-workshop8.herokuapp.com
+
+each instance has separate backend/database. Each workshop pair will receive one for testing purposes.
+
 # Code structure
 
 * `tests/e2e/features/*` - here are all cucumber *.feature files
