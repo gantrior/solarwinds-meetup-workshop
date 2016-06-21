@@ -4,8 +4,9 @@ Feature: Todos
   Because it is cool
 
 Background:
-    Given I am on 'https://solarwinds-meetup-workshopX.herokuapp.com'
+    Given I am on 'https://solarwinds-meetup-workshop.herokuapp.com'
 
+@runThis
 Scenario: Task can be added
     When I add task 'test task'
     Then I should see task 'test task' in the list

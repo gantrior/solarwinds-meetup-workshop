@@ -25,6 +25,7 @@
   "scripts": {
     "init": "npm install && node node_modules/protractor/bin/webdriver-manager update && gulp tscompile",
     "test": "node node_modules/protractor/bin/protractor",
+    "testselected": "node node_modules/protractor/bin/protractor --cucumberOpts.tags=@runThis",
     "watch": "gulp watch"
   }
 }
