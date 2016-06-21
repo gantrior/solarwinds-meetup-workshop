@@ -26,8 +26,21 @@ Install nodejs
 
 # How to run the tests:
 
-1. Open in Visual Studio Code and run 
-2. Open a new cmdline and run [Protractor](http://www.protractortest.org#/): ./node_modules/.bin/protractor protractor.conf.js
+* Open in Visual Studio Code -> Debug -> Select "Launch all e2e tests" -> Run
+* If you want to run just one specific test:
+  * mark the scenario with "@runThis" tag in "*.feature" file
+  * Open in Visual Studio Code -> Debug -> Select "Launch selected e2e Tests" -> Run
+* Open a new cmdline and run [Protractor](http://www.protractortest.org#/): ./node_modules/.bin/protractor protractor.conf.js
+
+# Development
+
+Code is written in [Typescript](https://www.typescriptlang.org/), but protractor can work only with `*.js` files, so you must make sure that every change you do into `*.ts` files gets compile to `*.js`
+
+To do it open cmdline and run:
+
+    npm run watch
+    
+from now every change you do to *.ts* files will be compiled automatically
 
 # Code structure
 
