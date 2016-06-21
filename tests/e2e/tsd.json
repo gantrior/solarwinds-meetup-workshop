@@ -6,7 +6,7 @@
   "bundle": "typings/tsd.d.ts",
   "installed": {
     "node/node.d.ts": {
-      "commit": "4639f126d25956b6a7ddf8462dd4e73101983b85"
+      "commit": "830e4aaac859e4f648efaa16712f1d6e378e6902"
     },
     "angular-protractor/angular-protractor.d.ts": {
       "commit": "81b951f1ac437d1eb5ff5171a0bfa6c467634b13"
@@ -28,6 +28,21 @@
     },
     "cucumber/cucumber.d.ts": {
       "commit": "bd269cad4cb2b495f940c7b6afc5825d568029be"
+    },
+    "lodash/lodash.d.ts": {
+      "commit": "830e4aaac859e4f648efaa16712f1d6e378e6902"
+    },
+    "form-data/form-data.d.ts": {
+      "commit": "830e4aaac859e4f648efaa16712f1d6e378e6902"
+    },
+    "request-promise/request-promise.d.ts": {
+      "commit": "830e4aaac859e4f648efaa16712f1d6e378e6902"
+    },
+    "request/request.d.ts": {
+      "commit": "830e4aaac859e4f648efaa16712f1d6e378e6902"
+    },
+    "bluebird/bluebird.d.ts": {
+      "commit": "830e4aaac859e4f648efaa16712f1d6e378e6902"
     }
   }
 }

@@ -2,7 +2,7 @@ var waiting = function (rootSelector, callback) {
     var el = document.querySelector(rootSelector);
     var $timeout = angular.element(el).injector().get('$timeout');
     // make sure that timeout is queued in angular pipeline which should make sure that digest cycle really ended
-    $timeout(callback, 1000);
+    $timeout(callback, 0);
 };
 
 exports.config = {
@@ -14,7 +14,7 @@ exports.config = {
         'browserName': 'chrome',
         'chromeOptions': {'args': ['--disable-extensions']}
     },
-    baseUrl: 'https://www.angularjs.org/',
+    baseUrl: 'https://solarwinds-meetup-workshop.herokuapp.com',
     
     /* replace jasmine with cucumber */
     framework: 'custom',
@@ -37,6 +37,7 @@ exports.config = {
     
     /* integrate reporter */ 
     onPrepare: function () {
+        process.setMaxListeners(0);
         browser.driver.manage().window().maximize();
     },
     
